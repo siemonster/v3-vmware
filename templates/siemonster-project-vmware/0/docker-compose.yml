@@ -140,7 +140,7 @@ services:
   es-client-2:
     cap_add:
     - IPC_LOCK
-    image: ikuturso/es-image:3.3
+    image: ikuturso/es-image:3.2
     environment:
       CA_PWD: ${CA_PWD}
       CLUSTER_NAME: siemonster
@@ -172,7 +172,7 @@ services:
   es-data-node1:
     cap_add:
     - IPC_LOCK
-    image: ikuturso/es-image:3.3
+    image: ikuturso/es-image:3.2
     environment:
       CA_PWD: ${CA_PWD}
       CLUSTER_NAME: siemonster
@@ -202,7 +202,7 @@ services:
   es-client-1:
     cap_add:
     - IPC_LOCK
-    image: ikuturso/es-image:3.3
+    image: ikuturso/es-image:3.2
     environment:
       CA_PWD: ${CA_PWD}
       CLUSTER_NAME: siemonster
@@ -234,7 +234,7 @@ services:
   es-master:
     cap_add:
     - IPC_LOCK
-    image: ikuturso/es-image:3.3
+    image: ikuturso/es-image:3.2
     hostname: es-master
     environment:
       BEATS_PWD: ${BEATS_PWD}
@@ -278,7 +278,7 @@ services:
   es-data-node2:
     cap_add:
     - IPC_LOCK
-    image: ikuturso/es-image:3.3
+    image: ikuturso/es-image:3.2
     environment:
       CA_PWD: ${CA_PWD}
       CLUSTER_NAME: siemonster
