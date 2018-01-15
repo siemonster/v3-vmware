@@ -9,7 +9,7 @@ version: '2'
       description: Specify the domain name of the site.
       label: Site domain name
       required: true
-      default: vagrant.portal.siemonster.com
+      default: vmware.portal.siemonster.com
       type: string
     - variable: BRANCH_NAME
       description: Specify the branch name to checkout.
