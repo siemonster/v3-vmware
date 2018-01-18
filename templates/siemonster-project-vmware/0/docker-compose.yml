@@ -773,7 +773,7 @@ services:
       io.rancher.container.pull_image: always
       io.rancher.service.wait_for_healthcheck: true
   logstash-collector:
-    image: ikuturso/logstash-collector:1.3
+    image: ikuturso/logstash-collector:1.4
     environment:
       HEAP_SIZE: "1g"
       RABBITMQ_USER: ${RABBITMQ_USER}
